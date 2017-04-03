@@ -1,6 +1,6 @@
 {
   "name": "tablr-json",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Opens a tablr editor for the first array found in a JSON file",
   "license": "MIT",
   "author": "Emily Marigold Klassen <forivall@gmail.com>",
@@ -12,8 +12,7 @@
   "bugs": {
     "url": "https://github.com/forivall/atom-tablr-json/issues"
   },
-  "keywords": [
-  ],
+  "keywords": [],
   "main": "./lib/tablr-json",
   "scripts": {
     "lint": "xo",
@@ -27,8 +26,7 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "eslint-config-mxo": "^0.4.0",
     "jsinspect": "^0.12.3",
