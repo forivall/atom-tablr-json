@@ -1,0 +1,55 @@
+{
+  "name": "tablr-json",
+  "version": "0.0.0",
+  "description": "Opens a tablr editor for the first array found in a JSON file",
+  "license": "MIT",
+  "author": "Emily Marigold Klassen <forivall@gmail.com>",
+  "homepage": "https://github.com/forivall/atom-tablr-json",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:forivall/atom-tablr-json.git"
+  },
+  "bugs": {
+    "url": "https://github.com/forivall/atom-tablr-json/issues"
+  },
+  "keywords": [
+  ],
+  "main": "./lib/tablr-json",
+  "scripts": {
+    "lint": "xo",
+    "lint-staged": "lint-staged",
+    "inspect": "jsinspect",
+    "posttest": "npm run lint && npm run inspect"
+  },
+  "activationCommands": {
+    "atom-workspace": "tablr-json:open"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "eslint-config-mxo": "^0.4.0",
+    "jsinspect": "^0.12.3",
+    "xo": "^0.18.1"
+  },
+  "consumedServices": {
+    "tablr-models": {
+      "versions": {
+        "1.0.0": "consumeTablrModelsServiceV1"
+      }
+    }
+  },
+  "xo": {
+    "parser": "babel-eslint",
+    "parserOptions": {
+      "plugins": [
+        "flow"
+      ]
+    },
+    "extends": [
+      "mxo/esnext"
+    ]
+  }
+}

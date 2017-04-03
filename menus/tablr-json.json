@@ -1,0 +1,18 @@
+{
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Tablr",
+          "submenu": [
+            {
+              "label": "Open JSON table editor for current file",
+              "command": "tablr-json:open"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
