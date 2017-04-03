@@ -7,7 +7,7 @@
   "homepage": "https://github.com/forivall/atom-tablr-json",
   "repository": {
     "type": "git",
-    "url": "git@github.com:forivall/atom-tablr-json.git"
+    "url": "https://github.com/forivall/atom-tablr-json"
   },
   "bugs": {
     "url": "https://github.com/forivall/atom-tablr-json/issues"
