@@ -1,6 +1,6 @@
 {
   "name": "tablr-json",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Opens a tablr editor for the first array found in a JSON file",
   "license": "MIT",
   "author": "Emily Marigold Klassen <forivall@gmail.com>",
